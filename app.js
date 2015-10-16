@@ -16,10 +16,8 @@ var doObject = function(keys, object) {
   var myKeys = Object.keys(object);
   var intersection = _.intersection(keys, myKeys);
 
-  if (intersection.length > 0) {
-    for (var index = 0; index < intersection.length; index++) {
-      delete object[intersection[index]];
-    }
+  for (var index = 0; index < intersection.length; index++) {
+    delete object[intersection[index]];
   }
 
   myKeys = Object.keys(object);
