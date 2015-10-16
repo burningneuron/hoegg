@@ -1,0 +1,22 @@
+{
+  "name": "hoegg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/burningneuron/hoegg"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burningneuron/hoegg/issues"
+  },
+  "homepage": "https://github.com/burningneuron/hoegg",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}

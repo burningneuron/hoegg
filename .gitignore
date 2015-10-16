@@ -1,0 +1,5 @@
+.DS_store
+.vagrant
+node_modules
+npm-debug.log
+.env
